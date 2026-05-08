@@ -583,3 +583,8 @@ a.active {
         width: var(--mobile-button-width) !important;
     }
 }
+@media (max-width: 768px) {
+    .content-section {
+        margin-bottom: var(--mobile-margin-bottom) !important;
+    }
+}
