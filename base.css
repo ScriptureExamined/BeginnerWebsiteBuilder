@@ -558,6 +558,10 @@ a.active {
         flex-direction: column !important;
     }
 
+        .stack-mobile .section-row > div {
+            width: 100%;
+        }
+
     /* Section mobile typography */
     .content-section h2 {
         font-size: var(--mobile-title-font-size) !important;
