@@ -554,3 +554,25 @@ a.active {
         text-align: center;
     }
 }
+
+@media (max-width: 768px) {
+    .content-section {
+        --mobile-button-margin-left: auto;
+        --mobile-button-margin-right: auto;
+    }
+
+        .content-section[style*="--mobile-button-align: left"] {
+            --mobile-button-margin-left: 0;
+            --mobile-button-margin-right: auto;
+        }
+
+        .content-section[style*="--mobile-button-align: right"] {
+            --mobile-button-margin-left: auto;
+            --mobile-button-margin-right: 0;
+        }
+
+        .content-section .site-button {
+            margin-left: var(--mobile-button-margin-left);
+            margin-right: var(--mobile-button-margin-right);
+        }
+}
