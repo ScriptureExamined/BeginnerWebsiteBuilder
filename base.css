@@ -605,4 +605,10 @@ a.active {
     .content-section[style*="--mobile-button-width"] .site-button {
         width: var(--mobile-button-width) !important;
     }
+
+    @media (max-width: 768px) {
+        .content-section {
+            border-radius: var(--mobile-border-radius) !important;
+        }
+    }
 }
