@@ -504,3 +504,9 @@ a.active {
         padding: var(--mobile-padding) !important;
     }
 }
+
+@media (max-width: 768px) {
+    .stack-mobile .section-row {
+        flex-direction: column !important;
+    }
+}
