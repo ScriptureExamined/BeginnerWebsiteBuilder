@@ -516,3 +516,13 @@ a.active {
         text-align: var(--mobile-text-align) !important;
     }
 }
+
+@media (max-width: 768px) {
+    .content-section h2 {
+        font-size: var(--mobile-title-font-size) !important;
+    }
+
+    .content-section p {
+        font-size: var(--mobile-text-font-size) !important;
+    }
+}
