@@ -510,3 +510,9 @@ a.active {
         flex-direction: column !important;
     }
 }
+
+@media (max-width: 768px) {
+    .content-section {
+        text-align: var(--mobile-text-align) !important;
+    }
+}
