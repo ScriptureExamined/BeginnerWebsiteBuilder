@@ -534,3 +534,9 @@ a.active {
         height: auto;
     }
 }
+
+@media (max-width: 768px) {
+    .hide-image-mobile {
+        display: none !important;
+    }
+}
