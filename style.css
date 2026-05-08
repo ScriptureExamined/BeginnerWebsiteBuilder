@@ -1,0 +1,19 @@
+body {
+    background-color: #000000;
+    color: #d4af37;
+}
+
+a {
+    color: #ffffff;
+}
+
+.menu-top,
+.menu-side,
+.menu-sticky {
+    background-color: #000000;
+}
+
+footer {
+    background-color: #000000;
+    color: #d4af37;
+}
