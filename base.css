@@ -546,3 +546,11 @@ a.active {
         min-height: var(--mobile-min-height) !important;
     }
 }
+
+@media (max-width: 768px) {
+    .content-section .site-button {
+        width: var(--mobile-button-width) !important;
+        display: inline-block;
+        text-align: center;
+    }
+}
