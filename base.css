@@ -588,3 +588,9 @@ a.active {
         margin-bottom: var(--mobile-margin-bottom) !important;
     }
 }
+
+@media (max-width: 768px) {
+    .content-section {
+        background-position: var(--mobile-background-position) !important;
+    }
+}
