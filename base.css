@@ -540,3 +540,9 @@ a.active {
         display: none !important;
     }
 }
+
+@media (max-width: 768px) {
+    .content-section {
+        min-height: var(--mobile-min-height) !important;
+    }
+}
