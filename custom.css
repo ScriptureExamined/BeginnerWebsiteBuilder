@@ -1,37 +1,37 @@
 
 .site-button {
-    border-radius: 12px;
+    border-radius: 6px;
 }
 
 /* SOLID */
 .site-button.button-solid {
-    background-color: Red;
-    color: Lime;
+    background-color: #ffd700;
+    color: #000000;
 }
 
 .site-button.button-solid:hover {
-    background-color: Yellow;
+    background-color: #e6c200;
 }
 
 /* OUTLINE */
 .site-button.button-outline {
-    border-color: Red;
-    color: Red;
+    border-color: #ffd700;
+    color: #ffd700;
     background: transparent;
 }
 
 .site-button.button-outline:hover {
-    background-color: Yellow;
-    color: Lime;
+    background-color: #e6c200;
+    color: #000000;
 }
 
 /* GHOST */
 .site-button.button-ghost {
-    color: Lime;
+    color: #000000;
     background: transparent;
 }
 
 .site-button.button-ghost:hover {
-    color: Yellow;
+    color: #e6c200;
     text-decoration: underline;
 }
